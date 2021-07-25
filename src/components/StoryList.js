@@ -1,17 +1,20 @@
 import React from 'react';
 import StoryDetails from './StoryDetails';
 
-const StoryList = ({stories, loaded}) => {
+const StoryList = ({filteredStories, loaded}) => {
+
+  if(!loaded){
+    return 'Retrieving top stories...'
+  }
 
   return (
     <ul>
-      {stories.map(
+      {filteredStories.map(
         story => {
           return (
             <StoryDetails
               key={story.id}
               story={story}
-              loaded={loaded}
             />
           )
         }
