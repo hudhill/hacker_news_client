@@ -1,0 +1,9 @@
+.storyContainer {
+  padding-left: 30px;
+  font-family: 'American Typewriter', Times, serif;
+  background-color:azure;
+}
+
+.indent {
+  padding-left: 40px;
+}
