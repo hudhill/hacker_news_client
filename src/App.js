@@ -1,4 +1,5 @@
 import StoryContainer from './containers/StoryContainer';
+import './App.css'
 
 function App() {
 

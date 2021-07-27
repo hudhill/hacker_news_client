@@ -1,7 +1,10 @@
+body {
+  background:azure;
+}
+
 .storyContainer {
   padding-left: 30px;
   font-family: 'American Typewriter', Times, serif;
-  background-color:azure;
 }
 
 .indent {

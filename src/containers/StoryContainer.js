@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import StoryList from '../components/StoryList';
 import SearchBar from '../components/SearchBar';
-import "./StoryContainer.css"
 
 const StoryContainer = () => {
 
